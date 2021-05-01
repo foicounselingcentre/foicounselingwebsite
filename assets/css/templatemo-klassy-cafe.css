@@ -937,9 +937,7 @@ Gallery/Menu
 .card5 {
   background-image: url(../images/menu-item-05.jpg);
 }
-.card6 {
-  background-image: url(../images/menu-item-06.jpg);
-}
+
 
 .info {
   position: relative;
@@ -1186,7 +1184,7 @@ Donate
 */
 
 #donate div{
-  background-color: #ffdf9f;
+  background-color: #ffefcf;
 }
 
 #donate h6{

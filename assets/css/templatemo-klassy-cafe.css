@@ -1483,10 +1483,11 @@ offers
 #offers p{
   position: relative;
   left: 200px;
-  height: 600px;
-  text-align: center;
+  height: 700px;
+  text-align: left;
   font-size: 15px;
-  width: 700px;
+  width: 800px;
+  padding: 1em;
 }
 
 
@@ -1499,7 +1500,10 @@ offers
 
 .topspace{
   border: 2px solid green;
-  padding: 90px 20px 20px;
+}
+
+#offers p strong{
+  color: darkred;
 }
 
 /* 
@@ -1573,7 +1577,7 @@ responsive
 --------------------------------------------- 
 */
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
   #top {
     padding-top: 100px;
     height: auto;
@@ -1610,13 +1614,23 @@ responsive
     margin-left: 0px;
     margin-top: 30px;
   }
-  #offers .tabs-content .left-list {
-    margin-right: 0px;
+
+  #offers p {
+    display: block; 
+    width: 300px;
+    height: 1150px;
+    margin-left: -150px;
+    font-size: 12px;
   }
 
-  #offers .tabs-content .right-list {
-    margin-left: 0px;
+  #donate p{
+    display: block;
+    width: 300px;
+    height: 500px;
+    margin-left: -250px;
+    font-size: 12px;
   }
+
   footer .right-text-content {
     text-align: center;
     margin-bottom: 30px;

@@ -937,6 +937,9 @@ Gallery/Menu
 .card5 {
   background-image: url(../images/menu-item-05.jpg);
 }
+.card6 {
+  background-image: url(../images/menu-item-06.jpg);
+}
 
 .info {
   position: relative;
@@ -1183,7 +1186,7 @@ Donate
 */
 
 #donate div{
-  background-color: #ffffd5;
+  background-color: #ffdf9f;
 }
 
 #donate h6{
@@ -1617,18 +1620,18 @@ responsive
 
   #offers p {
     display: block; 
-    width: 300px;
-    height: 1150px;
-    margin-left: -150px;
-    font-size: 12px;
+    width: 400px;
+    height: 950px;
+    margin-left: -190px;
+    font-size: 13px;
   }
 
   #donate p{
     display: block;
-    width: 300px;
-    height: 500px;
-    margin-left: -250px;
-    font-size: 12px;
+    width: 370px;
+    height: 300px;
+    margin-left: -300px;
+    font-size: 13px;
   }
 
   footer .right-text-content {

@@ -1507,6 +1507,27 @@ offers
   color: darkred;
 }
 
+.general{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+
+} 
+
+.display-card{
+  padding: 2%;
+  flex: 1 21%;
+}
+
+.image img{
+  max-width: 100%;
+}
+
+.img-info{
+  margin-top: auto;
+}
+
 /* 
 ---------------------------------------------
 footer

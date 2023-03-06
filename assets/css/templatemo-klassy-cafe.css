@@ -1054,6 +1054,174 @@ Gallery/Menu
   content: '\f105';
 }
 
+/*
+---------------------------------------------
+services
+---------------------------------------------
+*/
+
+#offers {
+  padding-top: 20px;
+}
+
+#offers .section-heading {
+  margin-bottom: 70px;
+}
+
+#offers .section-heading h6 {
+  padding-left: 0px;
+}
+
+#offers .section-heading h6:before {
+  display: none;
+}
+
+#offers .heading-tabs {
+  text-align: center;
+}
+
+#offers #tabs ul {
+  padding: 0;
+}
+#offers #tabs ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+#offers #tabs ul li:last-child {
+  margin-right: 0px;
+}
+#offers #tabs ul li:first-child {
+  margin-left: 0px;
+}
+#offers #tabs ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  color: #2a2a2a;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+#offers #tabs ul li a img {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+#offers #tabs ul .ui-tabs-active a {
+  color: #fb5849;
+  position: relative; 
+  background-color: #ffffdc;
+  border: 0.13em dotted #800020;
+  padding: 1em;
+}
+#offers #tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+
+#offers #tabs ul li a:link{
+}
+#offers #tabs ul li a:visited{
+  color:orange;
+}
+#offers #tabs ul li a:hover{
+  color: red;
+  
+}
+
+#offers .tabs-content {
+  margin-top: 60px;
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+#offers .tabs-content .tab-item {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+
+
+#offers p{
+  position: relative;
+  left: 200px;
+  height: 300px;
+  text-align: left;
+  font-size: 15px;
+  width: 800px;
+  padding: 1em;
+}
+
+
+.center {
+  margin: center;
+  width: 50%;
+  padding: 30px 20px 20px;
+}
+
+
+
+#offers p strong{
+  color: darkred;
+}
+
+.general{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+
+} 
+
+.display-card{
+  padding: 2%;
+  flex: 1 21%;
+}
+
+.image img{
+  max-width: 100%;
+}
+
+.img-info{
+  margin-top: auto;
+}
+
+/*
+---------------------------------------------
+Services 2
+---------------------------------------------
+*/
+
+
+#offers #grid-container{
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-left: 100px;
+ 
+
+}
+
+#offers #grid-container h5{
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+#offers #grid-container .display-card{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.display-card:hover{
+  transform: scale(1.6);
+  color: darkred;
+}
+
+
 
 /*
 ---------------------------------------------
@@ -1379,154 +1547,7 @@ get in touch
   color: #2a2a2a;
 }
 
-/*
----------------------------------------------
-offers
----------------------------------------------
-*/
 
-#offers {
-  padding-top: 120px;
-}
-
-#offers .section-heading {
-  margin-bottom: 70px;
-}
-
-#offers .section-heading h6 {
-  padding-left: 0px;
-}
-
-#offers .section-heading h6:before {
-  display: none;
-}
-
-#offers .heading-tabs {
-  text-align: center;
-}
-
-#offers #tabs ul {
-  padding: 0;
-}
-#offers #tabs ul li {
-  display: inline-block;
-  margin: 0px 15px;
-}
-#offers #tabs ul li:last-child {
-  margin-right: 0px;
-}
-#offers #tabs ul li:first-child {
-  margin-left: 0px;
-}
-#offers #tabs ul li a {
-  text-transform: capitalize;
-  width: 100%;
-  display: inline-block;
-  font-size: 15px;
-  color: #2a2a2a;
-  font-weight: 600;
-  transition: all 0.3s;
-  text-align: center;
-}
-
-#offers #tabs ul li a img {
-  display: block;
-  margin: 0 auto 15px auto;
-}
-#offers #tabs ul .ui-tabs-active a {
-  color: #fb5849;
-  position: relative; 
-  background-color: #ffffdc;
-  border: 0.13em dotted #800020;
-  padding: 1em;
-}
-#offers #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
-}
-
-#offers #tabs ul li a:link{
-}
-#offers #tabs ul li a:visited{
-  color:orange;
-}
-#offers #tabs ul li a:hover{
-  color: red;
-  
-}
-
-#offers .tabs-content {
-  margin-top: 60px;
-  text-align: left;
-  display: inline-block;
-  transition: all 0.3s;
-}
-#offers .tabs-content .tab-item {
-  position: relative;
-  margin-bottom: 60px;
-}
-
-#offers .tabs-content .price h6 {
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  background-color: #fb5849;
-  display: inline-block;
-  text-align: center;
-  line-height: 70px;
-  border-radius: 3px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-}
-
-#offers p{
-  position: relative;
-  left: 200px;
-  height: 700px;
-  text-align: left;
-  font-size: 15px;
-  width: 800px;
-  padding: 1em;
-}
-
-
-.center {
-  margin: center;
-  width: 50%;
-  border: 2px solid green;
-  padding: 30px 20px 20px;
-}
-
-.topspace{
-  border: 2px solid green;
-}
-
-#offers p strong{
-  color: darkred;
-}
-
-.general{
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: space-around;
-
-} 
-
-.display-card{
-  padding: 2%;
-  flex: 1 21%;
-}
-
-.image img{
-  max-width: 100%;
-}
-
-.img-info{
-  margin-top: auto;
-}
 
 /* 
 ---------------------------------------------
